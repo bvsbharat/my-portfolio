@@ -2,9 +2,9 @@ const YEAR = new Date().getFullYear()
 
 export default {
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
+    <small style={{ display: 'block', marginTop: '10rem' }}>
       <time>{YEAR}</time> © Bharat Bhavnasi.
-      <a href="/feed.xml">RSS</a>
+      <a href="/">bvsbharat.dev</a>
       <style jsx>{`
         a {
           float: right;
