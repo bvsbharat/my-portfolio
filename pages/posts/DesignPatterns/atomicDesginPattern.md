@@ -27,9 +27,63 @@ By following this process, we can effectively organize our components into a hie
 
 ### Example of a simple to-do application using the Atomic Design pattern in
 
-![Drag Racing](images/desginPattern.png)
+```
+import React from 'react';
 
-This example defines four levels of the Atomic Design hierarchy: Atoms, Molecules, Organisms, and Templates. Atoms are the basic building blocks of the application, such as an input field or button. Molecules are composed of atoms and represent a slightly more complex UI element, such as a form that includes an input field and a button. Organisms are composed of molecules and atoms, and represent a more complex UI element such as a list of to-do items. Finally, the template is the highest level of the hierarchy and represents the overall layout of the application.
+// Atoms
+const Checkbox = ({ checked, onChange }) => (
+  <input type="checkbox" checked={checked} onChange={onChange} />
+);
+
+const TextInput = ({ value, onChange }) => (
+  <input type="text" value={value} onChange={onChange} />
+);
+
+// Molecules
+const TodoItem = ({ text, completed, onChange }) => (
+  <div>
+    <Checkbox checked={completed} onChange={onChange} />
+    <TextInput value={text} onChange={onChange} />
+  </div>
+);
+
+// Organisms
+const TodoList = ({ todos, onTodoChange }) => (
+  <div>
+    {todos.map((todo, index) => (
+      <TodoItem key={index} {...todo} onChange={onTodoChange(index)} />
+    ))}
+  </div>
+);
+
+// Templates
+const TodoApp = ({ todos, onTodoChange }) => (
+  <div>
+    <h1>My Todo List</h1>
+    <TodoList todos={todos} onTodoChange={onTodoChange} />
+  </div>
+);
+
+// Pages
+const HomePage = () => (
+  <div>
+    <TodoApp
+      todos={[
+        { text: 'Task 1', completed: false },
+        { text: 'Task 2', completed: true },
+      ]}
+      onTodoChange={(index) => (event) => {
+        // Handle todo change
+      }}
+    />
+  </div>
+);
+
+export default HomePage;
+
+```
+
+This example defines four levels of the Atomic Design hierarchy: Atoms, Molecules, Organisms, and Templates. Atoms are the basic building blocks of the application, such as an input field or Checkbox. Molecules are composed of atoms and represent a slightly more complex UI element, such as a form that includes an input field and a button. Organisms are composed of molecules and atoms, and represent a more complex UI element such as a list of to-do items. Finally, the template is the highest level of the hierarchy and represents the overall layout of the application.
 
 ### Folder structure for atomic pattern
 
