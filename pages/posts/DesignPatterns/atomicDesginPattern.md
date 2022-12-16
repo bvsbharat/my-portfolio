@@ -29,7 +29,9 @@ By following this process, we can effectively organize our components into a hie
 
 ### Example of a simple to-do application using the Atomic Design pattern in
 
-```js
+![desginPattern](images/desginPattern.png)
+
+```js copy showLineNumbers
 import React from 'react';
 
 // Atoms
