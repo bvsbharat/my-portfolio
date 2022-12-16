@@ -1,7 +1,7 @@
 const YEAR = new Date().getFullYear()
 
 export default {
-  primaryHue:	 { dark: 8, light: 4 },
+  darkMode:	true,
   logo: (
     <>
       <svg width="24" height="24" viewBox="0 0 24 24">
