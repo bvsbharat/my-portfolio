@@ -1,7 +1,7 @@
 ---
 type: posts
-title: Blog
+title: FE Developer Blog
 date: 2021-03-18
 ---
 
-# < FEDev/> Blog <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>
+# <FrontEnd/> Developer Blog <g-emoji class="g-emoji" alias="sunglasses" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f60e.png">😎</g-emoji>
