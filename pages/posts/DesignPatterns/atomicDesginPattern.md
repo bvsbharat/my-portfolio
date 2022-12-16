@@ -27,7 +27,7 @@ By following this process, we can effectively organize our components into a hie
 
 ### Example of a simple to-do application using the Atomic Design pattern in
 
-![Drag Racing](desginPattern.png)
+![Drag Racing](images/desginPattern.png)
 
 This example defines four levels of the Atomic Design hierarchy: Atoms, Molecules, Organisms, and Templates. Atoms are the basic building blocks of the application, such as an input field or button. Molecules are composed of atoms and represent a slightly more complex UI element, such as a form that includes an input field and a button. Organisms are composed of molecules and atoms, and represent a more complex UI element such as a list of to-do items. Finally, the template is the highest level of the hierarchy and represents the overall layout of the application.
 
