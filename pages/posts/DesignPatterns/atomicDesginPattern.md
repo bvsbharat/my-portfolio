@@ -27,7 +27,7 @@ By following this process, we can effectively organize our components into a hie
 
 ### Example of a simple to-do application using the Atomic Design pattern in
 
-![Drag Racing](carbon-20221216-021149.jpg)
+![Drag Racing](desginPattern.png)
 
 This example defines four levels of the Atomic Design hierarchy: Atoms, Molecules, Organisms, and Templates. Atoms are the basic building blocks of the application, such as an input field or button. Molecules are composed of atoms and represent a slightly more complex UI element, such as a form that includes an input field and a button. Organisms are composed of molecules and atoms, and represent a more complex UI element such as a list of to-do items. Finally, the template is the highest level of the hierarchy and represents the overall layout of the application.
 
@@ -47,3 +47,33 @@ This example defines four levels of the Atomic Design hierarchy: Atoms, Molecule
     └── pages
         ├── TodoApp.js
 ```
+
+### How will Atomic Design benefit any project ?
+
+**Control over the content**
+
+You have more control over the content you and your team are creating, because you work with a methodology that makes you reuse the components you have created.
+
+**Easily scalable**
+
+It's easy to scale your applications because you have reusable components in place.
+
+**Faster Prototyping**
+
+Design cycles go from weeks to days because designers can pick and combine the needed elements from an existing library.
+
+**Alignment with all team members**
+
+It's easy to align with designers and frontend teams because they already know about atomic components and they will have a better understanding of how you are structuring your space.
+
+**Single source of truth**
+
+You will generate a common language and a single source of truth by using the same methodology between teams, creating a design system.
+
+**Improved reusability, maintenance and updates**
+
+As you are using reusable components, you will improve reusability. It will be easy to update your application or change the behavior/look-and-feel and you will have less components to fight with.
+
+**Reduced time in testing**
+
+By reusing previously created components, you will save time by reducing testing phases for each use case, driving efficiency in project delivery
