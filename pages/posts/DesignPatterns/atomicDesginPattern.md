@@ -3,8 +3,10 @@ title: Modern web development through Atomic Design Pattern
 date: 2022/12/12
 description: Modern web development through Atomic Design Pattern
 tag: Atomic Design Pattern
-author: You
+author: Bharat Bhavnasi
 ---
+
+# Modern web development through Atomic Design Pattern
 
 ### What is Atomic Design?
 Atomic Design is a method for creating user interfaces (UI) that is based on the idea of building UI components in a hierarchical manner, starting with the smallest, most atomic (indivisible) components and working up to larger, more complex ones. It gets its name from its relation to the laws of chemistry, using atoms and molecules to make up an organism. Think back to those high school chemistry days, learning that everything in the universe is made up of tiny atoms, all working together to create the reality we live in. Atomic Design works the same way. For example, small UI elements like buttons, iconography, typography are considered the atoms, while the entire page is the living organism.

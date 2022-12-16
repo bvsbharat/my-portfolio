@@ -3,7 +3,7 @@ title: Helping Browsers Optimize With The CSS Contain Property
 date: 2021/4/22
 description: There is a growing number of things that we have to do to help the browser achieve for peak performance.
 tag: Web performance
-author: You
+author: Bharat Bhavnasi
 ---
 
 # Helping Browsers Optimize With The CSS Contain Property
